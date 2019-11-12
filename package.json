@@ -1,0 +1,32 @@
+{
+  "name": "developer-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MussinaKama/Developer-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MussinaKama/Developer-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/MussinaKama/Developer-Profile-Generator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "electron-html-to": "^2.6.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.0",
+    "open": "^7.0.0",
+    "path": "^0.12.7",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "electron": "^7.1.1"
+  }
+}
