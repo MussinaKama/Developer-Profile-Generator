@@ -23,9 +23,7 @@ const questions = [
 
 function promptUser() {
     inquirer.prompt(questions).then((answers) => {
-        const clientID = "Iv1.a2b1ad44ef284cfc";
-        const clientSecret = "3d220780c658f368cfea5298c05521c4c6c9514e";
-        const queryUrl = `https://api.github.com/users/${answers.username}?client_id=${clientID}&client_secret=${clientSecret}`;
+        const queryUrl = `https://api.github.com/users/${answers.username}`;
         
         axios
             .get(queryUrl)
